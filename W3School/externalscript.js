@@ -17,7 +17,7 @@ console.log(11+29);
 function VariableFunction(){
     var s=11;
     var b=29;
-    let z=s+b;
+    let z=s-b;
 
     document.getElementById("VarDemo").innerHTML="Value is ="+z;
 }
