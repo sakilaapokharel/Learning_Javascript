@@ -7,3 +7,7 @@ document.write(11+29);
 function Add(){
     document.write(11+29);
 }
+
+window.alert(11+29);
+alert(11);
+console.log(11+29);
