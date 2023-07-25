@@ -199,7 +199,13 @@ body{
 /* Featured Products Section CSS */
 #product1{
     text-align: center;
+}
 
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 #product1 .pro{
@@ -212,6 +218,7 @@ body{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 16px 0;
     transition: 0.2s ease;
+    position: relative;
 }
 
 #product1 .pro:hover{
@@ -254,8 +261,12 @@ body{
 #product1 .pro .cart{
     width: 40px;
     height: 40px;
-    color: #1a1a1a;
+    color: #088178;
     line-height: 40px;
     border-radius: 40px;
     background-color: #e8f6ea;
+    border: 1px solid #088178;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
