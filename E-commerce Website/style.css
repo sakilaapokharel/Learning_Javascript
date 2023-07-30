@@ -655,3 +655,76 @@ footer .copyright{
         width: 70%;
     }
 }
+
+
+
+/* For Mobile Screen */
+@media (max-width:477px){
+
+    .section-p1 {
+        padding: 20px 20px;
+    }
+
+    /* Nav */
+    #header { 
+        padding: 8px 24px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    #feature .fe-box {
+    width: 155px;
+    margin: 0 0 16px 0;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+    footer .copyright {
+        text-align: start;
+    }
+}
