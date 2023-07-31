@@ -595,6 +595,69 @@ footer .copyright{
 }
 
 
+/* Single Product Page */
+
+#pro-details .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#pro-details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+#pro-details .single-pro-details{
+    width: 50%;
+    padding: 24px;
+}
+
+#pro-details .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+
+#pro-details .single-pro-details h2{
+    font-size: 24px;
+}
+
+#pro-details .single-pro-details select{
+    display: block;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+}
+
+#pro-details .single-pro-details input{
+    width: 50px;
+    height: 48px;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+#pro-details .single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+
+#pro-details .single-pro-details input:focus{
+    outline: none;
+}
+
+#pro-details .single-pro-details span{
+    line-height: 150%;
+}
+
 
 
 

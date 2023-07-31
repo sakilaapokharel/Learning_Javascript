@@ -31,14 +31,128 @@
     </section>
     
     <section id="pro-details" class="section-p1">
-        <div>
-
+        <div class="single-pro-image">
+            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
         </div>
 
-        <div>
-            
+        <div class="single-pro-details">
+            <h6>Home / T-shirt</h6>
+            <h4>Men's Fashion T-shirt</h4> 
+            <h2>$129.00</h2>
+
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+
+            <input type="number" value="1">
+
+            <button class="normal">Add To Cart</button>
+
+            <h4>Product Details</h4>
+
+            <span>Sed molestie sed vitae pulvinar praesent. Sagittis pellentesque nunc id rh
+                oncus praesent proin ut nulla volutpat. Felis non sapien auctor urna.
+                 Ut sem urna mauris est aliquam quis quisque tristique accumsan. 
+                Ligula adipiscing sem eu eros non aliquet.
+            </span>
         </div>
     </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Designs</p>
+        <div class="pro-container">
+
+            <div class="pro">
+                <img src="img/products/n5.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" ></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/n6.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" ></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/n7.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" ></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/n8.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Cartoon Astronaut T-shirt</h5>
+                    <div class="star">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart" ></i></a>
+            </div>
+
+        </div>
+    </section>
+
 
     <section id="newsletter" class="section-p1 section-m1">
         <div class="newstext">
@@ -104,6 +218,27 @@
             <p>Developed by @sakila</p>
         </div>
     </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function(){
+            MainImg.src = SmallImg[0].src;
+        }
+
+        SmallImg[1].onclick = function(){
+            MainImg.src = SmallImg[1].src;
+        }
+
+        SmallImg[2].onclick = function(){
+            MainImg.src = SmallImg[2].src;
+        }
+
+        SmallImg[3].onclick = function(){
+            MainImg.src = SmallImg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
