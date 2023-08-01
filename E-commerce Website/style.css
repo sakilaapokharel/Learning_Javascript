@@ -616,6 +616,7 @@ footer .copyright{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    align-items: center;
 }
 
 #pro-details .single-pro-details{
@@ -835,4 +836,23 @@ footer .copyright{
     footer .copyright {
         text-align: start;
     }
+
+    /* Single Product */
+
+    #pro-details {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    #pro-details .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #pro-details .single-pro-details {
+        width: 100%;
+    }
+
+    
+
 }
