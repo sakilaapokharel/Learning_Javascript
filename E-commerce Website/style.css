@@ -770,6 +770,12 @@ footer .copyright{
 
 
 
+
+
+
+
+
+
 /* Media Query */
 
 @media (max-width:799px){
@@ -980,6 +986,22 @@ footer .copyright{
     }
 
     #blog .blog-details {
+        width: 100%;
+    }
+
+
+    /* About Page */
+
+    #about-head {
+        flex-direction: column;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin: 0;
+    }
+
+    #about-app .video {
         width: 100%;
     }
 
