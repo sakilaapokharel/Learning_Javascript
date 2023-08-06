@@ -734,6 +734,7 @@ footer .copyright{
 }
 
 
+
 /* About Page */
 
 #page-header.about-header{
@@ -937,6 +938,29 @@ footer .copyright{
         width: 100%;
     }
 
-    
+    /* Blog Page */
+
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    } 
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+    }
+
+
 
 }
