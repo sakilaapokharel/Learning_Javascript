@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -25,11 +26,12 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px 20px;
+    padding: 0 80px;
+    align-items: center;
 }
 
-
 nav a{
+    font-size: 16px;
     text-decoration: none;
     font-weight: 400;
     color: var(--body-text-color);
@@ -43,4 +45,14 @@ nav .logo{
     display: flex;
     justify-content: space-between;
     gap: 40px;
+}
+
+.right-navbar a{
+    padding: 40px 20px;
+
+}
+
+.right-navbar #active-nav{
+    border-bottom: var(--secondary-color) 2px solid;
+    font-weight: 600;
 }
