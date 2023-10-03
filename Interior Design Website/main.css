@@ -52,6 +52,7 @@ p{
     width: fit-content;
     background: transparent;
     color: var(--body-text-color);
+    cursor: pointer;
 }
 
 .btn-outline:hover{
@@ -149,6 +150,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
+   
 }
 
 .aboutus-content{
@@ -176,6 +178,9 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 120px;
+    background-color: var(--background-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .service-content{
@@ -215,3 +220,101 @@ header{
 .service-item-col h3.active{
     color: var(--body-text-color);
 }
+
+
+/* Portfolio */
+
+.portfolio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.portfolio-row{
+    display: flex;
+    gap: 80px;
+}
+
+.portfolio-card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    cursor: pointer;
+}
+
+.portfolio-img-container{
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.portfolio-card img{
+    width: 450px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover img{
+    transform: scale(1.15); 
+}
+
+.portfolio-card.down{
+    margin-top: 32px;
+}
+
+.portfolio-open{
+    padding: 11%;
+    background: #000000f1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.portfolio-open img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.cross{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.next{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    
+}
+
+.previous{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    
+}
+
+.cross p, .next i, .previous i{
+    color: var(--background-color);
+    background-color: #000;
+    padding: 8px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+

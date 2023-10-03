@@ -24,3 +24,6 @@ var mainImg = document.getElementById("mainimg");
             mainImg.src = "img/service3.jpg"
           })
    
+
+var close = document.getElementById("close");
+
