@@ -252,7 +252,7 @@ header{
 }
 
 .portfolio-card img{
-    width: 450px;
+    width: 600px;
     height: 400px;
     object-fit: cover;
     transition: transform 0.3s ease;
@@ -267,7 +267,8 @@ header{
 }
 
 .portfolio-open{
-    padding: 11%;
+    display: none;
+    padding: 2%;
     background: #000000f1;
     position: fixed;
     top: 0;
@@ -285,21 +286,21 @@ header{
 
 .cross{
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 16px;
+    right: 16px;
 }
 
 .next{
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 16px;
     
 }
 
 .previous{
     position: absolute;
     top: 50%;
-    left: 15px;
+    left: 16px;
     
 }
 
